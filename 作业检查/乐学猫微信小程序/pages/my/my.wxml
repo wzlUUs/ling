@@ -1,0 +1,66 @@
+<view class="zbox">
+    <view class="header">
+        <image src="/publice/img/微信图片_20220928190205.png"></image>
+        <navigator url="../login/login">
+        <view class="loginmbile">
+            <image class="loginimgs" src="/publice/img/loginimg.png"></image>
+            <view>登录/注册</view>
+        </view>
+        </navigator>
+        
+        <image class="shezhi" src="/publice/img/设置.png"></image>
+    </view>
+    <view class="mbile">
+        <li>
+            <image src="/publice/img/myimg/我的订单.png"></image>
+            <view>我的订单</view>
+            <view>买课发快递</view>
+        </li>
+        <li>
+            <image src="/publice/img/myimg/兑换课程.png"></image>
+            <view>兑换课程</view>
+            <view>兑换码兑换课程</view>
+        </li>
+        <li>
+            <image src="/publice/img/myimg/地址管理.png"></image>
+            <view>地址管理</view>
+            <view>收货地址</view>
+        </li>
+
+    </view>
+
+
+    <!-- 我的收藏 -->
+    <view class="shoucang">
+       <li>
+          <image src="/publice/img/myimg/我的收藏.png"></image>
+          <p>我的收藏</p>
+          <image src="/publice/img/箭头.png"></image>
+       </li>
+       <li>
+          <image src="/publice/img/myimg/我的会员.png"></image>
+          <p>我的会员</p>
+          <image src="/publice/img/箭头.png"></image>
+       </li>
+       <li>
+          <image src="/publice/img/myimg/我的优惠券.png"></image>
+          <p class="youhui">我的优惠券</p>
+          <image src="/publice/img/箭头.png"></image>
+       </li>
+      
+    </view>
+
+    <view class="xiaoxi">
+       <li>
+          <image src="/publice/img/myimg/我的消息.png"></image>
+          <p>我的消息</p>
+          <image src="/publice/img/箭头.png"></image>
+       </li>
+       <li>
+          <image src="/publice/img/myimg/问题反馈.png"></image>
+          <p>问题反馈</p>
+          <image src="/publice/img/箭头.png"></image>
+       </li>
+    </view>
+
+</view>

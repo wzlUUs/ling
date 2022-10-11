@@ -1,0 +1,106 @@
+.loginbox {
+    width: 100%;
+    height: 200px;
+    // background-color: skyblue;
+    position: relative;
+
+    // image:nth-child(1) {
+    //     width: 40rpx;
+    //     height: 40rpx;
+    //     position: absolute;
+    //     left: 20rpx;
+    //     top: 20rpx;
+    // }
+
+    image:nth-child(1) {
+        position: absolute;
+        top: 0;
+        left: 0;
+        right: 0;
+        bottom: 0;
+        margin: auto;
+        width: 365rpx;
+        height: 97rpx;
+    }
+}
+
+.inp {
+    width: 100%;
+    height: 150px;
+    // background-color: greenyellow;
+    position: relative;
+
+    .inputs {
+        // background-color: red;
+        width: 350px;
+        height: 150px;
+        position: absolute;
+        top: 0;
+        left: 0;
+        right: 0;
+        bottom: 0;
+        margin: auto;
+
+        .inputx {
+            width: 350px;
+            height: 50px;
+            display: flex;
+            align-items: center;
+            image {
+                width: 30px;
+                height: 30px;
+            }
+            input {
+                width: 300px;
+                height: 50px;
+                border-bottom: 1px solid grey;
+                margin-left: 10px;
+            }
+        }
+        view:nth-child(3){
+            width: 350px;
+            height: 50px;
+            display: flex;
+            align-items: center;
+            image {
+                width: 30px;
+                height: 30px;
+            }
+            .yzm{
+                width: 100px;
+                height: 30px;
+            }
+        }
+
+
+    }
+}
+
+.loginbutton{
+    width: 90%;
+    height: 50px;
+    background-color: #f15a24;
+    margin-left: 5%;
+    line-height: 50px;
+    text-align: center;
+    font-size: 24px;
+    color: white;
+    margin-top: 50px;
+    border-radius: 5px;
+}
+.loginbuttonbottom{
+    width: 90%;
+    height: 50px;
+    // background-color: #f15a24;
+    margin-left: 5%;
+    line-height: 50px;
+    // text-align: center;
+    display: flex;
+    justify-content: space-between;
+    p:nth-child(1){
+        color: grey;
+    }
+    p:nth-child(2){
+        color: #f15a24;
+    }
+}

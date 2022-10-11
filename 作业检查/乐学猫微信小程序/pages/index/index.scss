@@ -1,0 +1,252 @@
+/* pages/selection/selection.wxss */
+.box {
+    /* padding: 0 20rpx; */
+    height: 100vh;
+    background-color: #fafafa;
+  }
+  
+  .swiper {
+    padding: 0 20rpx;
+  }
+  
+  .header {
+    padding: 0 15rpx;
+    display: flex;
+    justify-content: space-between;
+    font-weight: 700;
+    color: #424963;
+    background-color: #fff;
+  }
+  
+  .pic {
+    width: 140rpx;
+    height: 50rpx;
+    /* margin-right: 300rpx; */
+    display: flex;
+  }
+  
+  .pic .img {
+    width: 100%;
+    height: 100%;
+  }
+  
+  .pic .img1 {
+    width: 100%;
+    height: 100%;
+    margin-left: 40rpx;
+  }
+  
+  .nav {
+    padding: 0 15rpx;
+    height: 90rpx;
+    width: 97%;
+    display: flex;
+    justify-content: space-between;
+    /* align-items: center; */
+    color: #7a7a7a;
+    background-color: #fff;
+  }
+  
+  .nav text {
+    width: 100rpx;
+    height: 90rpx;
+    line-height: 90rpx;
+    text-align: center;
+  }
+  
+  .active {
+    color: #f15a24;
+    border-bottom: 3px solid #f15a24;
+  }
+  
+  .contentnav {
+    width: 100%;
+    display: flex;
+    height: 100rpx;
+    background-color: #fff;
+    border-radius: 60rpx;
+    margin-top: 30rpx;
+    line-height: 100rpx;
+  }
+  
+  .contentimg .img1 {
+    width: 60rpx;
+    height: 60rpx;
+    margin-top: -10rpx;
+  }
+  
+  .contentimg .img2 {
+    width: 90rpx;
+    height: 40rpx;
+  }
+  
+  .swiper .img {
+    width: 100%;
+    height: 100%;
+    border-radius: 50rpx;
+  }
+  
+  .contentimg {
+    display: flex;
+    align-items: center;
+    vertical-align: center;
+    margin-left: 30rpx;
+  }
+  
+  .contentnav .time {
+    font-weight: 600;
+    font-size: 28rpx;
+    margin-right: 10rpx;
+  }
+  
+  .contentnav .txt {
+    font-size: 26rpx;
+  }
+  
+  .contentnav .guandaofu {
+    margin: 0 10rpx;
+    color: #ccc;
+  }
+  
+  .center {
+    width: 300rpx;
+    margin: auto;
+    height: 100rpx;
+    text-align: center;
+    margin-top: 10rpx;
+  }
+  
+  .centerimg {
+    width: 80rpx;
+    height: 50rpx;
+  }
+  
+  .centertxt {
+    color: #a6adbc;
+  }
+  
+  .clas {
+    width: 97%;
+    height: 90rpx;
+    background-color: #fff;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 15rpx;
+  }
+  
+  .clas .clastxt {
+    font-weight: 700;
+    font-size: 42rpx;
+    color: #424963;
+  }
+  
+  .clas .clastext {
+    font-size: 28rpx;
+    color: #6b6b6b;
+  }
+  
+  .free {
+    width: 98%;
+    height: 440rpx;
+    background-color: #fff;
+    padding: 15rpx;
+    display: flex;
+    justify-content: space-around;
+  }
+  
+  .free-box {
+    position: relative;
+    margin-top: 60rpx;
+    width: 230rpx;
+    height: 360rpx;
+    background-color: #eaeaea;
+    border-radius: 10rpx;
+    text-align: center;
+    padding-top: 80rpx;
+    padding-left: 20rpx;
+    padding-right: 20rpx;
+    box-sizing: border-box;
+  }
+  
+  .free-img {
+    width: 100rpx;
+    height: 100rpx;
+    border-radius: 50%;
+    background-color: #f15a24;
+    position: absolute;
+    top: -45rpx;
+    left: 70rpx;
+  }
+  
+  .free-img .img {
+    text-align: center;
+    margin-top: 2rpx;
+    width: 96rpx;
+    height: 96rpx;
+    border-radius: 50%;
+  }
+  
+  .free-txt {
+    width: 100%;
+    font-size: 28rpx;
+    display: -webkit-box;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    -webkit-line-clamp: 3;
+    -webkit-box-orient: vertical;
+    color: #777;
+  }
+  
+  .free-btn {
+    background-color: #f15a24;
+    color: #fff;
+    margin: 30rpx 0 0rpx;
+    border-radius: 30rpx;
+  }
+  
+  .free-text {
+    color: #f15a24;
+    font-size: 28rpx;
+
+  }
+  
+  .goodclass {
+    width: 100%;
+    height: 130rpx;
+    background-color: #fafafa;
+    font-size: 42rpx;
+    font-weight: 800;
+    color: #424963;
+    line-height: 130rpx;
+    padding-left: 15rpx;
+  }
+  
+  .recommend {
+    width: 100%;
+    background-color: #fafafa;
+    /* padding: 0 15rpx; */
+  }
+  .recommend-box {
+    width: 90%;
+    height: 300rpx;
+    background-color: #fff;
+    margin: auto;
+    border-radius: 20rpx;
+  }
+  .recommend-text{
+    border-radius: 25rpx 0  25rpx 0rpx;
+    width: 130rpx;
+    height: 45rpx;
+    background-color: #f15a24;
+    color: #fff;
+    font-size: 28rpx;
+    text-align: center;
+    line-height: 45rpx;
+  }
+  .recommend-txt{
+    font-size: 36rpx;
+    color: #373737;
+    /* margin-top: 35rpx; */
+  }
+ 

@@ -1,0 +1,52 @@
+{
+    "pages": [
+        "pages/index/index",
+        "pages/courses/courses",
+        "pages/cathome/cathome",
+        "pages/tool/tool",
+        "pages/my/my",
+        "pages/login/login",
+        "pages/zhuce/zhuce"
+    ],
+    "window": {
+        "backgroundTextStyle": "light",
+        "navigationBarBackgroundColor": "#fff",
+        "navigationBarTitleText": "Weixin",
+        "navigationBarTextStyle": "black"
+    },
+    "tabBar": {
+        "list": [
+            {
+                "pagePath": "pages/index/index",
+                "text": "选课",
+                "iconPath": "/publice/img/选课前.png",
+                "selectedIconPath": "/publice/img/选课后.png"
+            },
+            {
+                "pagePath": "pages/courses/courses",
+                "text": "我的课",
+                "iconPath": "/publice/img/我的课前.png",
+                "selectedIconPath": "/publice/img/我的课后.png"
+            },
+            {
+                "pagePath": "pages/cathome/cathome",
+                "text": "喵屋",
+                "iconPath": "/publice/img/喵屋前.png",
+                "selectedIconPath": "/publice/img/喵屋后.png"
+            },
+            {
+                "pagePath": "pages/tool/tool",
+                "text": "工具",
+                "iconPath": "/publice/img/工具前.png",
+                "selectedIconPath": "/publice/img/工具后.png"
+            },
+            {
+                "pagePath": "pages/my/my",
+                "text": "我的",
+                "iconPath": "/publice/img/我的.png",
+                "selectedIconPath": "/publice/img/我的后.png"
+            }
+        ]
+    },
+    "sitemapLocation": "sitemap.json"
+}

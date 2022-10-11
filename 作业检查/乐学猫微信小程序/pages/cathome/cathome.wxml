@@ -1,0 +1,31 @@
+<view class="headerimage">
+    <image src="/publice/img/cathomeimg/顶部背景图.png"></image>
+    <image src="/publice/img/cathomeimg/喵wu.png"></image>
+    <image src="/publice/img/cathomeimg/顶右铃铛.png"></image>
+    <image src="/publice/img/cathomeimg/顶右猫头人.png"></image>
+</view>
+
+<view class="header">
+    <li>广场</li>
+    <li>图书勘误</li>
+    <li>关注</li>
+</view>
+
+<!-- 轮播图 -->
+<view class="container">
+  <view class="page-body">
+    <view class="page-section">
+      <view class="page-section-title">
+        <text>Vertical Scroll\n纵向滚动</text>
+      </view>
+      <view class="page-section-spacing">
+        <scroll-view scroll-y="true" style="height: 300rpx;" bindscrolltoupper="upper" bindscrolltolower="lower" bindscroll="scroll" scroll-into-view="{{toView}}" scroll-top="{{scrollTop}}">
+          <view id="demo1" class="scroll-view-item demo-text-1"></view>
+          <view id="demo2"  class="scroll-view-item demo-text-2"></view>
+          <view id="demo3" class="scroll-view-item demo-text-3"></view>
+        </scroll-view>
+      </view>
+    </view>
+  </view>
+</view>
+    
